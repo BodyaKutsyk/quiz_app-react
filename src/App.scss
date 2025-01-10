@@ -1,10 +1,25 @@
-// body {
-//   background-color: #c9d5da;
-// }
+* {
+  box-sizing: border-box;
+}
 
-// .App {
-//   &__title {
-//     font-family: sans-serif;
-//     color: rgb(130, 67, 239);
-//   }
-// }
+html, body, p, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+
+}
+
+iframe {
+  display: none;
+}
