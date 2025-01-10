@@ -1,0 +1,29 @@
+.question {
+  padding-left: 16px;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+  transition: 0.3s ease-in-out;
+  
+  border-radius: 4px;
+  background-color: #e8e5e5;
+  
+  font-size: 14px;
+
+  &:hover {
+    background-color: #cac9c9;
+  }
+
+  &--correct {
+    background-color: #4fc16b;
+    color: #fff;
+  }
+
+  &--wrong {
+    background-color: rgb(228, 73, 73);
+    color: #fff;
+  }
+}
